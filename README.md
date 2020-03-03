@@ -5,13 +5,11 @@ PTT 八卦版問答-正面-中文語料
 
 ## 資料說明
 
-資料集一共有兩份，您可於 [PTT-Gossiping-Corpus](https://www.kaggle.com/zake7749/pttgossipingcorpus) 或是從本專案的 `data` 資料夾裡取得。
-
-
 ### Gossiping-QA-pos-Dataset-2_0.csv
 
-來自 Gossiping-QA-Dataset-2_0.csv 資料集，從其中 774,114 筆問答配對中做情緒分析，抽取所有預測正面情緒的句子(正面機率>50%)，最終整理出 197926 筆資料，其中 最低正面機率：0.50，最高正面機率：0.94，平均正面機率：0.64。
-資料格式調整為 csv，包含了三個 columns: `question` ， `answer` 和 `positive probability`
+來自 Gossiping-QA-Dataset-2_0.csv 資料集，從其中 774,114 筆問答配對中做情緒分析，抽取所有預測正面情緒的句子(正面機率>50%)，最終整理出 197926 筆資料。   
+其中 最低正面機率：0.50，最高正面機率：0.94，平均正面機率：0.64。   
+資料格式調整為 csv，包含了三個 columns: `question` ， `answer` 和 `positive probability`    
 
 ```csv
 20 世 紀 還 有 媲 美 或 超 越 鋼 鍊 的 神 作 嗎,鋼 鍊 神 在 劇 情 從 一 開 始 就 編 排 好 了 不 是 邊 走 邊 想,0.789045512676239
